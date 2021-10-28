@@ -21,6 +21,9 @@ body {
 header {
   background-color: var(--aqua-marina);
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 header h1 {
   font-weight: bold;
@@ -28,7 +31,7 @@ header h1 {
   color: var(--yellow);
   margin: 0;
   font-family: var(--base-font);
-  display: inline;
+  /* display: inline; */
 }
 header a {
   text-decoration: none;
@@ -36,7 +39,7 @@ header a {
 }
 
 header nav {
-  float: right;
+  /* float: right; */
   margin: 7px 0;
 }
 
